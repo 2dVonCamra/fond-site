@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .card__metro {
     display: flex;
     align-items: center;
@@ -51,58 +51,4 @@
 }
 .card__metro-line--none {
     display: none; 
-=======
-.card__metro {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 14px;
-    margin: 0;
-    width: 100%;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.card__metro-line {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ccc;
-}
-
-
-.card__metro-line--red {
-    background-color: #e53935;
-}
-
-.card__metro-line--blue {
-    background-color: #1e88e5;
-}
-
-.card__metro-line--yellow {
-    background-color: #fdd835;
-}
-
-.card__metro-line--green {
-    background-color: #43a047;
-}
-
-.card__metro-line--purple {
-    background-color: #8e24aa;
-}
-
-.card__metro-line--orange {
-    background-color: #fb8c00;
-}
-
-.card__metro-line--brown {
-    background-color: #795548;
-}
-.card__metro-line--green {
-    background-color: #43a047;
-}
-.card__metro-line--none {
-    display: none; 
->>>>>>> 9a947a4187919816fe3d22ffb219c04f3c8bafb6
 }

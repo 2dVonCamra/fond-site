@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .info-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -61,69 +61,3 @@
         gap: 16px;
     }
 }
-
-=======
-.info-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.info-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 20px 16px;
-    background: #fff;
-    height: 100%;
-    box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.info-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-
-.info-title {
-   font-size: 16px;        
-   font-weight: 600;       
-   margin: 0 0 10px 0;     
-   line-height: 1.3;
-   flex-shrink: 0;
-   display: flex;          
-   align-items: center;
-   min-height: 63px;
-}
-
-.info-logo {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-    border-radius: 8px;
-    flex-shrink: 0;
-    margin-bottom: 10px;
-}
-
-@media (max-width: 1023px) {
-    .info-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 576px) {
-    .info-list {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-}
-
->>>>>>> 9a947a4187919816fe3d22ffb219c04f3c8bafb6

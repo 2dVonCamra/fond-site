@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .help__header {
     margin: 60px auto 40px;
     text-align: center;
@@ -32,39 +32,4 @@
         font-size: 28px;
         margin: 85px auto 60px;
     }
-=======
-.help__header {
-    margin: 60px auto 40px;
-    text-align: center;
-}
-
-.help__text {
-    font-size: 16px;
-    color: #555;
-    margin-top: 10px;
-}
-
-.help__titel {
-    font-size: 52px;
-    font-weight: 300;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 1.1;
-    letter-spacing: 2px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 1023px) {
-    .help__titel {
-        font-size: 36px;
-        margin: 50px auto 30px;
-    }
-}
-
-@media (max-width: 576px) {
-    .help__titel {
-        font-size: 28px;
-        margin: 85px auto 60px;
-    }
->>>>>>> 9a947a4187919816fe3d22ffb219c04f3c8bafb6
 }

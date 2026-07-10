@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container {
   max-width: 1260px;
   margin: 0 auto;
@@ -9,16 +9,4 @@
   .container {
     padding: 0 16px;
   }
-=======
-.container {
-  max-width: 1260px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-@media (max-width: 576px) {
-  .container {
-    padding: 0 16px;
-  }
->>>>>>> 9a947a4187919816fe3d22ffb219c04f3c8bafb6
 }
