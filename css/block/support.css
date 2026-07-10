@@ -1,0 +1,30 @@
+.support__titel {
+    font-size: 52px;
+    font-weight: 300;
+    text-align: center;
+    margin: 100px auto;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1023px) {
+    .support__titel {
+        font-size: 36px;
+        margin: 50px auto 30px;
+    }
+    .info-item__support--centered {
+        grid-column: 2 / 3;
+    }
+}
+
+@media (max-width: 576px) {
+    .support__titel {
+        font-size: 28px;
+        margin: 85px auto 60px;
+    }
+    .info-item__support--centered {
+        grid-column: auto;
+    }
+
+}

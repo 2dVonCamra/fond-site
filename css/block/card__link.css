@@ -1,0 +1,28 @@
+.card__link {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #476BF0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.card__link:hover {
+    background-color: #3854d6;
+    transform: translateY(-1px);
+}
+
+
+.card__link:active {
+    transform: translateY(0);
+}
+
+.card__link:focus-visible {
+    outline: 2px solid #1a1a1a;
+    outline-offset: 2px;
+}

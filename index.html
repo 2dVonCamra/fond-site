@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏫</text></svg>">
+    <meta name="description"
+        content="Сайт для родителей детей с ОВЗ в Санкт-Петербурге. Информация об учебных заведениях, поддержке и помощи в Кировском районе.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="fonts/Lexend-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <title>Сайт для родителей и детей с ОВЗ</title>
+</head>
+
+<body class="main-page">
+    <div id="preloader" class="preloader">
+    <div class="preloader__spinner"></div>
+</div>
+
+    <header class="header">
+        <div class="container">
+            <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false"
+                aria-controls="sideMenu">
+                <span class="burger__menu"></span>
+
+            </button>
+            <div class="overlay" id="overlay"></div>
+            <nav class="side-menu" id="sideMenu">
+                <ul class="side-menu__list">
+                    <li class="side-menu__item">
+                        <a href="/study.html" class="side-menu__link">Куда пойти учиться?</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="/support.html" class="side-menu__link">Кто окажет поддержку?</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="/help.html" class="side-menu__link">Кто может помочь?</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__titel">Дорогу осилит идущий</h1>
+            </div>
+        </section>
+        <section class="ad-act">
+            <div class="container">
+                <ul class="ad-act__list">
+                    <li class="ad-act__item">
+                        <a href="/study.html" class="ad-act__card-link">
+                            <div class="ad-act__card">
+                                <img class="ad-act__picture" src="/images/study__image.webp"
+                                    alt="Иллюстрация: выбор учебного заведения" width="350" height="350" loading="lazy">
+                                <h2 class="ad-act__title">Куда пойти учиться?</h2>
+                                <span class="ad-act__link">Открыть</span>
+                                <p class="ad-act__text">Список образовательных учреждений</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ad-act__item">
+                        <a href="/support.html" class="ad-act__card-link">
+                            <div class="ad-act__card">
+                                <img class="ad-act__picture" src="/images/suport__image.webp"
+                                    alt="Иллюстрация: кто может оказать поддрежку" width="350" height="350" loading="lazy">
+                                <h2 class="ad-act__title">Кто окажет поддержку?</h2>
+                                <span class="ad-act__link">Открыть</span>
+                                <p class="ad-act__text">Психолого-педагогическая, социально-педагогическая медицинская
+                                    помощь
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ad-act__item">
+                        <a href="/help.html" class="ad-act__card-link">
+                            <div class="ad-act__card">
+                                <img class="ad-act__picture" src="/images/help__image.webp"
+                                    alt="Иллюстрация: помощь и консультации" width="350" height="350" loading="lazy">
+                                <h2 class="ad-act__title">Кто может помочь?</h2>
+                                <span class="ad-act__link">Открыть</span>
+                                <p class="ad-act__text">Список образовательных учреждений</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Сайт несёт информативный характер, с&nbsp;целью ознакомления родителей детей
+                с&nbsp;ОВЗ с&nbsp;местами, где они могут получить реабилитационную, правовую, социальную,
+                психологическую и&nbsp;др. виды помощи в&nbsp;Санкт-Петербурге, преимущественно в&nbsp;Кирвоском районе.
+            </p>
+            <p class="footer__text">
+                Данный сайт разработан для
+                <abbr title="Государственное бюджетное общеобразовательное учреждение">ГБОУ</abbr>
+                школы 565 Кировского района Санкт-Петербурга.
+            </p>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Наверх">↑</button>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
