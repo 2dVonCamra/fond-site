@@ -137,3 +137,14 @@
     align-items: center;
     gap: 6px;
 }
+
+.modal__social a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #476BF0;
+    transition: color 0.2s ease;
+}
+
+.modal__social a:hover {
+    color: #3854d6;
+}

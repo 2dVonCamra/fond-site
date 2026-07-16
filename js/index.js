@@ -87,7 +87,14 @@ const organizationsData = {
             <p><strong>Дополнительный адрес:</strong> 198261, Санкт-Петербург, улица Стойкости, дом 36, корпус 2</p><p><strong>Телефон:</strong> <a href="tel:+78127558377">(812) 755-83-77</a></p>
         `,
         link: 'https://spbmta.ru/',
-        social: '<a href="#">ВКонтакте</a> <a href="#">MAX</a>',
+        social: `
+            <a href="https://vk.com/spb_mta" target="_blank" title="ВКонтакте">
+                    <i class="fab fa-vk"></i>
+            </a>
+            <a href="https://max.ru/id7805016119_gos" target="_blank" title="Сайт">
+                        <i class="fas fa-globe"></i>
+            </a>
+`,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. пр. Ветеранов</p>'
     },
     'Лицей сервиса и индустриальных тех.': {
@@ -115,27 +122,46 @@ const organizationsData = {
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Гражданский проспект</p>'
     },
     'Колледж метростроя': {
-    title: 'Колледж метростроя',
-    fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение "Колледж метростроя"',
-    info: `
-        <p><strong>Адрес:</strong> 195276, г. Санкт-Петербург, ул. Демьяна Бедного, д. 21, л. А</p>
+        title: 'Колледж метростроя',
+        fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение "Колледж метростроя"',
+        info: `
+        <p><strong>Адрес:</strong> 195276, г. Санкт-Петербург, ул. Демьяна Бедного, д. 21, л. А.</p>
         <p><strong>Телефон:</strong> <a href="tel:+78125581228">(812) 558-12-28</a></p>
         <p><strong>Электронная почта:</strong> kolm@obr.gov.spb.ru</p>
         <p><strong>Режим работы:</strong> Пн-Пт 9.00-17.00</p>
        
     `,
-    professions: `
+        professions: `
         <h3>Доступные профессии:</h3>
         <p>Слесарь по ремонту автомобилей</p>
          <p><strong>Дополнительный адрес:</strong> 194352, Санкт-Петербург, Придорожная аллея д.7 лит. А.</p>
         <p><strong>Телефон:</strong> <a href="tel:+78125175641">(812) 517-56-41</a>, <a href="tel:+78125179393">(812) 517-93-93</a></p>
 
     `,
-    
-    link: 'https://www.colm.spb.ru/',
-    social: '<a href="#">ВКонтакте</a>',
-    metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Гражданский пр.</p><p><span class="card__metro-line card__metro-line--blue"></span> м. пр. Просвещения</p>'
-},
+
+        link: 'https://www.colm.spb.ru/',
+        social: '<a href="#">ВКонтакте</a>',
+        metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Гражданский пр.</p><p><span class="card__metro-line card__metro-line--blue"></span> м. пр. Просвещения</p>'
+    },
+    'Садово-архитектурный колледж': {
+        title: 'Садово-архитектурный колледж',
+        fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение "Садово-архитектурный колледж" (СПБ ГБПОУ С-АК )',
+        info: `
+        <p><strong>Адрес:</strong>195197, г. Санкт-Петербург, ул. Лабораторная, д.15 лит.А.</p>
+        <p><strong>Телефон:</strong> <a href="tel:+78122413034">(812)241-30-34 </a></p>
+        <p><strong>Электронная почта:</strong> sak@obr.gov.spb.ru</p>
+        <p><strong>Режим работы:</strong> Пн-Пт 9.00-17.30</p>
+    `,
+        professions: `
+        <h3>Доступные профессии:</h3>
+        <p>Садовник</p>
+        <p><strong>Дополнительный адрес:</strong> 195197, г. Санкт-Петербург, ул. Лабораторная, д.15 лит.А.</p>
+        <p><strong>Телефон:</strong> <a href="tel:+78122413034">(812)241-30-34</a>, <a href="tel:+78122413037">(812) 241-30-37</a></p>
+    `,
+        link: 'https://сайт-организации.ru/',
+        social: '<a href="#">ВКонтакте</a>',
+        metro: '<p><span class="card__metro-line card__metro-line--ЦВЕТ"></span> м. СТАНЦИЯ</p>'
+    },
 
 };
 
