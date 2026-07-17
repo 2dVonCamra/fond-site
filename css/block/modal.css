@@ -65,12 +65,11 @@
     margin-bottom: 15px;
 }
 
-.modal__social a {
-    margin-right: 10px;
-    color: #476BF0;
-    text-decoration: none;
+.modal__social  {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
-
 
 @media (max-width: 576px) {
     .modal__content {
@@ -112,12 +111,6 @@
     flex-wrap: wrap;
 }
 
-.modal__social a {
-    margin-right: 10px;
-    color: #476BF0;
-    text-decoration: none;
-}
-
 .modal__metro {
     display: flex;
     align-items: center;
@@ -136,15 +129,4 @@
     display: flex;
     align-items: center;
     gap: 6px;
-}
-
-.modal__social a {
-    font-size: 24px;
-    margin-right: 10px;
-    color: #476BF0;
-    transition: color 0.2s ease;
-}
-
-.modal__social a:hover {
-    color: #3854d6;
 }

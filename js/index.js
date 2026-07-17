@@ -74,7 +74,7 @@ window.addEventListener('load', function () {
 const organizationsData = {
     'Морская техническая академия': {
         title: 'Морская техническая академия имени адмирала Д.Н. Сенявина',
-        fullname: 'Полное наименование: Санкт-Петербургское государственное автономное профессиональное образовательное учреждение "Морская техническая академия имени адмирала Д.Н. Сенявина" (СПб МТА им. адмирала Д.Н. Сенявина)',
+        fullname: 'Санкт-Петербургское государственное автономное профессиональное образовательное учреждение "Морская техническая академия имени адмирала Д.Н. Сенявина" (СПб МТА им. адмирала Д.Н. Сенявина)',
         info: `
             <p><strong>Адрес:</strong> 198260, Санкт-Петербург, проспект Народного Ополчения, дом 189, корпус 1, литера А, Б</p>
             <p><strong>Телефон:</strong> <a href="tel:+78126208708">(812) 620-87-08</a></p>
@@ -89,17 +89,17 @@ const organizationsData = {
         link: 'https://spbmta.ru/',
         social: `
             <a href="https://vk.com/spb_mta" target="_blank" title="ВКонтакте">
-                    <i class="fab fa-vk"></i>
+                    <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;"
             </a>
             <a href="https://max.ru/id7805016119_gos" target="_blank" title="Сайт">
-                        <i class="fas fa-globe"></i>
+                         <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
             </a>
 `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. пр. Ветеранов</p>'
     },
     'Лицей сервиса и индустриальных тех.': {
         title: 'Лицей сервиса и индустриальных технологий',
-        fullname: 'Полное наименование: Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Лицей сервиса и индустриальных технологий» (СПб ГБПОУ ЛСИТ)',
+        fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Лицей сервиса и индустриальных технологий» (СПб ГБПОУ ЛСИТ)',
         info: `
          <p><strong>Адрес:</strong> 195267, Санкт-Петербург, ул. Ушинского, д. 16</p>
             <p><strong>Телефон:</strong> <a href="tel:+78125317070">(812) 531-70-70</a></p>
@@ -118,7 +118,11 @@ const organizationsData = {
             <p><strong>Дополнительный адрес:</strong>195297, город Санкт-Петербург, Светлановский проспект, дом 111, корпус 2, лит. А.</p><p><strong>Телефон:</strong> <a href="tel:+78122463214">(812)246-32-14</a></p>
         `,
         link: 'https://lsit.ru/',
-        social: '<a href="#">ВКонтакте</a>',
+        social: `
+            <a href="https://vk.com/priem_lsitspb" target="_blank" title="ВКонтакте">
+                    <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+`,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Гражданский проспект</p>'
     },
     'Колледж метростроя': {
@@ -140,7 +144,11 @@ const organizationsData = {
     `,
 
         link: 'https://www.colm.spb.ru/',
-        social: '<a href="#">ВКонтакте</a>',
+        social: `
+            <a href="https://vk.ru/colmspb" target="_blank" title="ВКонтакте">
+                    <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+`,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Гражданский пр.</p><p><span class="card__metro-line card__metro-line--blue"></span> м. пр. Просвещения</p>'
     },
     'Садово-архитектурный колледж': {
@@ -158,9 +166,69 @@ const organizationsData = {
         <p><strong>Дополнительный адрес:</strong> 195197, г. Санкт-Петербург, ул. Лабораторная, д.15 лит.А.</p>
         <p><strong>Телефон:</strong> <a href="tel:+78122413034">(812)241-30-34</a>, <a href="tel:+78122413037">(812) 241-30-37</a></p>
     `,
-        link: 'https://сайт-организации.ru/',
-        social: '<a href="#">ВКонтакте</a>',
-        metro: '<p><span class="card__metro-line card__metro-line--ЦВЕТ"></span> м. СТАНЦИЯ</p>'
+        link: 'https://www.sapl113.ru/',
+        social: `
+            <a href="https://vk.ru/spb_sak" target="_blank" title="ВКонтакте">
+                    <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+`,
+        metro: '<p><span class="card__metro-line card__metro-line--red""></span> м. Лесная</p>'
+    },
+    'СПб ГБ ПОУ Охтинский колледж': {
+        title: 'Охтинский колледж',
+        fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Охтинский колледж» (СПб ГБ ПОУ «Охтинский колледж»)',
+        info: `
+        <p><strong>Адрес:</strong> 195112, г. Санкт-Петербург, ул. Республиканская, д. 39, лит. А</p>
+        <p><strong>Телефон:</strong> <a href="tel:+78125314427">(812) 531-44-27</a></p>
+        <p><strong>Электронная почта:</strong> pu35spb@mail.ru</p>
+        <p><strong>Режим работы:</strong> Пн-Пт 09.00-18.00</p>
+    `,
+        professions: `
+        <h3>Доступные профессии:</h3>
+        <p>Изготовитель художественных изделий из лозы (набор 1 раз в 2 года)</p>
+        <p><strong>Дополнительный адрес:</strong> 195112, г. Санкт-Петербург, ул. Республиканская, д. 39, лит. А</p><p><strong>Телефон:</strong> <a href="tel:+78125314427">(812)531-44-27</a></p>
+        <p>Портной (набор 1 раз в 2 года)</p>
+        <p><strong>Дополнительный адрес:</strong> 193315, г. Санкт-Петербург, пр. Большевиков д.38, корп. 1</p><p><strong>Телефон:</strong> <a href="tel:+78125860790">(812)586-07-90</a> <a href="tel:+78125860785">(812)586-07-85</a></p>
+        <p>Столяр</p>
+        <p>Столяр строительный</p>
+        <p><strong>Дополнительный адрес:</strong> 192289, г. Санкт-Петербург, ул. Бухарестская д.136, корп. 1</p><p><strong>Телефон:</strong> <a href="tel:+78127769604">(812)776-96-04</a></p>
+    `,
+        link: 'https://ohtakol.spb.ru/',
+        social: `
+        <a href="https://vk.ru/okhtacoll" target="_blank" title="ВКонтакте">
+            <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+        </a>
+        <a href="https://max.ru/id7806003779_gos" target="_blank" title="Сайт">
+                         <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;"
+            </a>
+    `,
+        metro: `
+        <p><span class="card__metro-line card__metro-line--yellow"></span> м. Новочеркасская</p>
+        <p><span class="card__metro-line card__metro-line--orange"></span> м. Дыбенко</p>
+        <p><span class="card__metro-line card__metro-line--purple"></span> м. Дунайская</p>
+    `
+    },
+    'Академия реставрации и дизайна': {
+        title: 'Академия реставрации и дизайна',
+        fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Академия реставрации и дизайна» (СПб ГБПОУ АРД)',
+        info: `
+        <p><strong>Адрес:</strong> 192236, г. Санкт-Петербург, ул. Софийская, д. 21, к. 1, лит. А</p>
+        <p><strong>Телефон:</strong> <a href="tel:+78122412757">(812) 241-27-57</a></p>
+        <p><strong>Электронная почта:</strong> info.ard@obr.gov.spb.ru</p>
+        <p><strong>Режим работы:</strong> Пн-Пт 08.30-20.00, Сб 08.30-18.00</p>
+    `,
+        professions: `
+        <h3>Доступные профессии:</h3>
+        <p>Реставратор, дизайнер</p>
+        <p><strong>Дополнительный адрес:</strong> 198261, Санкт-Петербург, ул. Стойкости, д. 30, корп. 2, лит. А</p><p><strong>Телефон:</strong> <a href="tel:+78127590428">(812)759-04-28</a> <a href="tel:+78122412757">(812)241-27-57</a></p>
+    `,
+        link: 'https://ard.spb.ru/',
+        social: `
+        <a href="https://vk.ru/ardspb" target="_blank" title="ВКонтакте">
+            <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+        </a>
+    `,
+        metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Проспект Ветеранов</p>'
     },
 
 };
