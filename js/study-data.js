@@ -1,4 +1,4 @@
-export const organizationsData = {
+export const studyOrganizationsData = {
     'Морская техническая академия': {
         title: 'Морская техническая академия имени адмирала Д.Н. Сенявина',
         fullname: 'Санкт-Петербургское государственное автономное профессиональное образовательное учреждение "Морская техническая академия имени адмирала Д.Н. Сенявина" (СПб МТА им. адмирала Д.Н. Сенявина)',
@@ -337,5 +337,6 @@ export const organizationsData = {
     `,
         metro: '<p><span class="card__metro-line card__metro-line--none"></span> г. Всеволожск</p>'
     },
+    
 
 };

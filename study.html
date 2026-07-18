@@ -10,6 +10,7 @@
     <meta name="description"
         content="Сайт для родителей детей с ОВЗ в Санкт-Петербурге. Информация об учебных заведениях, поддержке и помощи в Кировском районе.">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/>
 
     <title>Сайт для родителей и детей с ОВЗ</title>
 </head>
@@ -232,20 +233,21 @@
     </footer>
     <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Наверх">↑</button>
     <div id="modal" class="modal">
-        <div class="modal__overlay" id="modalOverlay"></div>
-        <div class="modal__content" id="modalContent">
-                <button class="modal__close" id="modalClose">×</button>
-                <h2 class="modal__title" id="modalTitle"></h2>
-                <p class="modal__fullname" id="modalFullname"></p>
-                <div class="modal__info" id="modalInfo"></div>
-                <div class="modal__professions" id="modalProfessions"></div>
-                <div class="modal__actions">
-                    <a class="card__link" id="modalLink" href="#" target="_blank">Перейти на сайт</a>
-                    <div class="modal__social" id="modalSocial"></div>
-                </div>
-                <div class="modal__metro" id="modalMetro"></div>
+    <div class="modal__overlay" id="modalOverlay"></div>
+    <div class="modal__content" id="modalContent">
+        <button class="modal__close" id="modalClose">×</button>
+        <h2 class="modal__title" id="modalTitle"></h2>
+        <p class="modal__fullname" id="modalFullname"></p>
+        <div class="modal__info" id="modalInfo"></div>
+        <div class="modal__professions" id="modalProfessions"></div>
+        <div class="modal__actions">
+            <a class="card__link" id="modalLink" href="#" target="_blank">Перейти на сайт</a>
+            <div class="modal__social" id="modalSocial"></div>
         </div>
+        <div class="modal__metro" id="modalMetro"></div>
     </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
     <script type="module" src="js/index.js"></script>
 </body>
 
