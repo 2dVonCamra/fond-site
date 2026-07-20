@@ -13,6 +13,16 @@
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
+.modal__title,
+.modal__fullname,
+.modal__info,
+.modal__professions,
+.modal__description {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
 .modal--active {
     opacity: 1 !important;
     visibility: visible !important;

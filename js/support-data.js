@@ -392,7 +392,7 @@ export const supportOrganizationsData = {
 },
 'АНО "Наш солнечный мир"': {
     title: 'Центр "Наш солнечный мир"',
-    fullname: 'Полное наименование: Автономная некоммерческая организация «Центр реабилитации инвалидов детства «Наш солнечный мир» (АНО «Наш солнечный мир»)',
+    fullname: 'Автономная некоммерческая организация «Центр реабилитации инвалидов детства «Наш солнечный мир» (АНО «Наш солнечный мир»)',
     info: `
         <p><strong>Адрес:</strong> 196128, г. Санкт-Петербург, БЦ Варшавский, Варшавская улица, дом 5 корп. 3</p>
         <p><strong>Телефон:</strong> <a href="tel:+79990080041" class="modal__phone">+7 (999) 008-00-41</a></p>
@@ -420,7 +420,7 @@ export const supportOrganizationsData = {
         <a href="https://vk.ru/solnechnymir" target="_blank" title="ВКонтакте">
             <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
         </a>
-        <a href="https://max.ru/id7715493124_biz" target="_blank" title="Сайт">
+        <a href="https://max.ru/id7715493124_biz" target="_blank" title="Макс">
             <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
         </a>
     `,
