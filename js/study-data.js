@@ -3,25 +3,26 @@ export const studyOrganizationsData = {
         title: 'Морская техническая академия имени адмирала Д.Н. Сенявина',
         fullname: 'Санкт-Петербургское государственное автономное профессиональное образовательное учреждение "Морская техническая академия имени адмирала Д.Н. Сенявина" (СПб МТА им. адмирала Д.Н. Сенявина)',
         info: `
-            <p><strong>Адрес:</strong> 198260, Санкт-Петербург, проспект Народного Ополчения, дом 189, корпус 1, литера А, Б</p>
-            <p><strong>Телефон:</strong> <a href="tel:+78126208708"  class="modal__phone">(812) 620-87-08</a></p>
-            <p><strong>Электронная почта:</strong> <a href="mailto:spbmta@obr.gov.spb.ru" class="modal__phone">spbmta@obr.gov.spb.ru</a></p>
-            <p><strong>Режим работы:</strong> Пн-Пт 7.30-18.00</p>
-        `,
+    <p><strong>Адрес:</strong> <a href="https://yandex.ru/maps/?text=198260, Санкт-Петербург, проспект Народного Ополчения, дом 189, корпус 1" target="_blank" class="modal__phone">198260, Санкт-Петербург, проспект Народного Ополчения, дом 189, корпус 1, литера А, Б</a></p>
+    <p><strong>Телефон:</strong> <a href="tel:+78126208708" class="modal__phone">(812) 620-87-08</a></p>
+    <p><strong>Электронная почта:</strong> <a href="mailto:spbmta@obr.gov.spb.ru" class="modal__phone">spbmta@obr.gov.spb.ru</a></p>
+    <p><strong>Режим работы:</strong> Пн-Пт 7.30-18.00</p>
+`,
         professions: `
-            <h3>Доступные профессии:</h3>
-            <p>Печник</p>
-            <p><strong>Дополнительный адрес:</strong> 198261, Санкт-Петербург, улица Стойкости, дом 36, корпус 2</p><p><strong>Телефон:</strong> <a href="tel:+78127558377" class="modal__phone">(812) 755-83-77</a></p>
-        `,
+        <h3>Доступные профессии:</h3>
+        <p>Печник</p>
+        <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=198261, Санкт-Петербург, улица Стойкости, дом 36, корпус 2" target="_blank" class="modal__phone">198261, Санкт-Петербург, улица Стойкости, дом 36, корпус 2</a></p>
+        <p><strong>Телефон:</strong> <a href="tel:+78127558377" class="modal__phone">(812) 755-83-77</a></p>
+    `,
         link: 'https://spbmta.ru/',
         social: `
-            <a href="https://vk.com/spb_mta" target="_blank" title="ВКонтакте">
-                    <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;"
-            </a>
-            <a href="https://max.ru/id7805016119_gos" target="_blank" title="Макс">
-                         <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
-            </a>
-`,
+        <a href="https://vk.com/spb_mta" target="_blank" title="ВКонтакте">
+            <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+        </a>
+        <a href="https://max.ru/id7805016119_gos" target="_blank" title="Макс">
+            <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
+        </a>
+    `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. пр. Ветеранов</p>'
     },
     'Лицей сервиса и индустриальных тех.': {
@@ -337,6 +338,6 @@ export const studyOrganizationsData = {
     `,
         metro: '<p><span class="card__metro-line card__metro-line--none"></span> г. Всеволожск</p>'
     },
-    
+
 
 };
