@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
+:root {
+  color-scheme: light only;
+}
+
 html {
     scroll-behavior: smooth;
+    forced-color-adjust: none;
+  -webkit-forced-color-adjust: none;
 }
 
 body {

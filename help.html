@@ -1,16 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
+    <meta name="color-scheme" content="light only">
+    <meta name="supported-color-schemes" content="light only">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏫</text></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏫</text></svg>">
     <meta name="description"
         content="Сайт для родителей детей с ОВЗ в Санкт-Петербурге. Информация об учебных заведениях, поддержке и помощи в Кировском районе.">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css" />
+
     <title>Сайт для родителей и детей с ОВЗ</title>
 </head>
 
@@ -99,8 +102,8 @@
                     <li class="info-item">
                         <div class="info-card">
                             <h3 class="info-title">ЦВЛ им. С.С.Мнухина</h3>
-                            <img class="info-logo" src="images/help__img/universal__image.webp" alt="Логотип"
-                                width="80" height="80" loading="lazy">
+                            <img class="info-logo" src="images/help__img/universal__image.webp" alt="Логотип" width="80"
+                                height="80" loading="lazy">
                             <a class="card__link" href="https://cvldp.kzdrav.gov.spb.ru/" target="_blank">Перейти на
                                 сайт</a>
                             <p class="card__metro">
@@ -112,8 +115,8 @@
                     <li class="info-item">
                         <div class="info-card">
                             <h3 class="info-title">ОКПП им. С.С.Мнухина</h3>
-                            <img class="info-logo" src="images/help__img/universal__image.webp" alt="Логотип"
-                                width="80" height="80" loading="lazy">
+                            <img class="info-logo" src="images/help__img/universal__image.webp" alt="Логотип" width="80"
+                                height="80" loading="lazy">
                             <a class="card__link" href="https://cvldp.kzdrav.gov.spb.ru/" target="_blank">Перейти на
                                 сайт</a>
                             <p class="card__metro">
@@ -164,6 +167,22 @@
         </div>
     </footer>
     <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Наверх">↑</button>
+    <div id="modal" class="modal">
+        <div class="modal__overlay" id="modalOverlay"></div>
+        <div class="modal__content" id="modalContent">
+            <button class="modal__close" id="modalClose">×</button>
+            <h2 class="modal__title" id="modalTitle"></h2>
+            <p class="modal__fullname" id="modalFullname"></p>
+            <div class="modal__info" id="modalInfo"></div>
+            <div class="modal__professions" id="modalProfessions"></div>
+            <div class="modal__actions">
+                <a class="card__link" id="modalLink" href="#" target="_blank">Перейти на сайт</a>
+                <div class="modal__social" id="modalSocial"></div>
+            </div>
+            <div class="modal__metro" id="modalMetro"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 
