@@ -1,5 +1,5 @@
 
-.study__titel { 
+.study__title { 
    font-size: 52px;
    font-weight: 300;
    text-align: center;
@@ -17,7 +17,7 @@
     .info-item--centered {
         grid-column: 2 / 3;
     }
-    .study__titel {
+    .study__title {
         font-size: 36px;
         margin: 50px auto 30px;
     }
@@ -27,7 +27,7 @@
     .info-item--centered {
         grid-column: auto;
     }
-    .study__titel{
+    .study__title{
         font-size: 28px;
         margin: 85px auto 60px;
     }

@@ -13,16 +13,6 @@
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.modal__title,
-.modal__fullname,
-.modal__info,
-.modal__professions,
-.modal__description {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-}
-
 .modal--active {
     opacity: 1 !important;
     visibility: visible !important;
@@ -50,7 +40,6 @@
     overflow-y: auto;
 }
 
-
 .modal__content::-webkit-scrollbar {
     width: 6px;
 }
@@ -65,14 +54,9 @@
     transition: background-color 0.3s ease;
 }
 
-.modal__wrapper {
-    position: relative;
-    display: inline-block;
-}
-
 .modal__close {
     position: sticky;
-    top: 0px;
+    top: 0;
     margin-top: -30px;
     margin-right: -15px;
     float: right;
@@ -98,7 +82,6 @@
 .modal__close:hover {
     transform: rotate(90deg) scale(1.1);
     color: #1a1a1a;
-
 }
 
 .modal__close:focus,
@@ -106,43 +89,9 @@
     outline: none;
 }
 
-.modal__content-wrapper {
-    position: relative;
-    display: inline-block;
-}
-
 .modal__title {
     font-size: 24px;
     margin: 0 0 15px;
-}
-
-.modal__description {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.modal__link {
-    display: inline-block;
-    margin-bottom: 15px;
-}
-
-.modal__social {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-@media (max-width: 576px) {
-    .modal__content {
-        width: 100%;
-        height: 100%;
-        max-height: 100vh;
-        border-radius: 0;
-        padding: 20px;
-        overflow-y: auto;
-        position: relative;
-    }
 }
 
 .modal__fullname {
@@ -156,15 +105,6 @@
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 15px;
-}
-
-.modal__phone {
-
-    transition: color 0.3s ease;
-}
-
-.modal__phone:hover {
-    color: #476BF0;
 }
 
 .modal__professions {
@@ -184,6 +124,26 @@
     flex-wrap: wrap;
 }
 
+.modal__link {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.modal__social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.modal__social a img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.modal__social a:hover img {
+    transform: translateY(-3px) scale(1.1);
+    opacity: 0.8;
+}
+
 .modal__metro {
     display: flex;
     align-items: center;
@@ -191,6 +151,26 @@
     font-size: 14px;
 }
 
+.modal__phone {
+    transition: color 0.3s ease;
+}
+
+.modal__phone:hover {
+    color: #476BF0;
+}
+
+/* Перенос текста */
+.modal__title,
+.modal__fullname,
+.modal__info,
+.modal__professions,
+.modal__description {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/* ID-селекторы для данных */
 #modalMetro {
     display: flex;
     flex-direction: column;
@@ -204,11 +184,15 @@
     gap: 6px;
 }
 
-.modal__social a img {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.modal__social a:hover img {
-    transform: translateY(-3px) scale(1.1);
-    opacity: 0.8;
+/* Мобильная версия */
+@media (max-width: 576px) {
+    .modal__content {
+        width: 100%;
+        height: 100%;
+        max-height: 100vh;
+        border-radius: 0;
+        padding: 20px;
+        overflow-y: auto;
+        position: relative;
+    }
 }

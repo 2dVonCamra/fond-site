@@ -1,5 +1,5 @@
 
-.support__titel {
+.support__title {
     font-size: 52px;
     font-weight: 300;
     text-align: center;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1023px) {
-    .support__titel {
+    .support__title {
         font-size: 36px;
         margin: 50px auto 30px;
     }
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 576px) {
-    .support__titel {
+    .support__title {
         font-size: 28px;
         margin: 85px auto 60px;
     }
