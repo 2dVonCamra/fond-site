@@ -16,6 +16,7 @@ html {
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;
+  color-scheme: light only;
 }
 
 body {
@@ -30,7 +31,13 @@ body {
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;
+  background-color: ghostwhite !important;
+  color: #1a1a1a;
 
+}
+body.no-scroll {
+    overflow: hidden;
+    padding-right: var(--scrollbar-width, 0px);
 }
 
 main {

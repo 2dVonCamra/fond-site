@@ -88,32 +88,48 @@ function openModal(data) {
     if (metroEl) metroEl.innerHTML = data.metro;
 
     modalEl.classList.add('modal--active');
+
+    // Блокируем скролл body
+    const scrollY = window.scrollY;
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = '100%';
     document.body.style.overflow = 'hidden';
 }
-
-const modalCloseBtn = document.getElementById('modalClose');
-if (modalCloseBtn) {
-    modalCloseBtn.addEventListener('click', closeModal);
-}
-
-const modalOverlayEl = document.getElementById('modalOverlay');
-if (modalOverlayEl) {
-    modalOverlayEl.addEventListener('click', closeModal);
-}
-
-document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && document.getElementById('modal')?.classList.contains('modal--active')) {
-        closeModal();
-    }
-});
 
 function closeModal() {
     const modalEl = document.getElementById('modal');
     if (modalEl) {
         modalEl.classList.remove('modal--active');
     }
+
+    // Восстанавливаем скролл body
+    const scrollY = document.body.style.top;
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
     document.body.style.overflow = '';
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
 }
+
+// Крестик
+const modalCloseBtn = document.getElementById('modalClose');
+if (modalCloseBtn) {
+    modalCloseBtn.addEventListener('click', closeModal);
+}
+
+// Оверлей
+const modalOverlayEl = document.getElementById('modalOverlay');
+if (modalOverlayEl) {
+    modalOverlayEl.addEventListener('click', closeModal);
+}
+
+// Escape
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && document.getElementById('modal')?.classList.contains('modal--active')) {
+        closeModal();
+    }
+});
 
 let currentData;
 if (window.location.pathname.includes('study')) {
@@ -138,6 +154,7 @@ document.querySelectorAll('.info-card').forEach(card => {
     });
 });
 
+// SimpleBar — если используется
 const modalContent = document.getElementById('modalContent');
 if (modalContent && typeof SimpleBar !== 'undefined') {
     new SimpleBar(modalContent);
