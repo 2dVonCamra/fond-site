@@ -49,10 +49,12 @@ img {
   height: auto;
   max-width: 100%;
   object-fit: cover;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 textarea {
@@ -65,6 +67,7 @@ button {
   background: none;
   padding: 0;
   font: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .visually-hidden {
