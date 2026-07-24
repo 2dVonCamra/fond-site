@@ -5,7 +5,7 @@ export const studyOrganizationsData = {
         info: `
             <p><strong>Адрес:</strong> <a href="https://yandex.ru/maps/?text=198260, Санкт-Петербург, проспект Народного Ополчения, дом 189, корпус 1" target="_blank" class="modal__phone">198260, Санкт-Петербург, проспект Народного Ополчения, дом 189, корпус 1, литера А, Б</a></p>
             <p><strong>Телефон:</strong> <a href="tel:+78126208708" class="modal__phone">(812) 620-87-08</a></p>
-            <p><strong>Электронная почта:</strong> <a href="mailto:spbmta@obr.gov.spb.ru" class="modal__phone">spbmta@obr.gov.spb.ru</a></p>
+            <p><strong>Электронная почта:</strong> <a href="mailto:info.spbmta@obr.gov.spb.ru" class="modal__phone">info.spbmta@obr.gov.spb.ru</a></p>
             <p><strong>Режим работы:</strong> Пн-Пт 7.30-18.00</p>
         `,
         professions: `
@@ -14,7 +14,7 @@ export const studyOrganizationsData = {
             <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=198261, Санкт-Петербург, улица Стойкости, дом 36, корпус 2" target="_blank" class="modal__phone">198261, Санкт-Петербург, улица Стойкости, дом 36, корпус 2</a></p>
             <p><strong>Телефон:</strong> <a href="tel:+78127558377" class="modal__phone">(812) 755-83-77</a></p>
         `,
-        link: 'https://spbmta.ru/',
+        link: 'https://spbmta.com',
         social: `
             <a href="https://vk.com/spb_mta" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
@@ -29,10 +29,10 @@ export const studyOrganizationsData = {
         title: 'Лицей сервиса и индустриальных технологий',
         fullname: 'Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Лицей сервиса и индустриальных технологий» (СПб ГБПОУ ЛСИТ)',
         info: `
-            <p><strong>Адрес:</strong> <a href="https://yandex.ru/maps/?text=195267, Санкт-Петербург, ул. Ушинского, д. 16" target="_blank" class="modal__phone">195267, Санкт-Петербург, ул. Ушинского, д. 16</a></p>
-            <p><strong>Телефон:</strong> <a href="tel:+78125317070" class="modal__phone">(812) 531-70-70</a></p>
-            <p><strong>Электронная почта:</strong> <a href="mailto:info@lsit.ru" class="modal__phone">info@lsit.ru</a></p>
-            <p><strong>Режим работы:</strong> Пн-Пт 8.00-18.00</p>
+            <p><strong>Адрес:</strong> <a href="https://yandex.ru/maps/?text=195269, Санкт-Петербург, улица Учительская, дом 21, лит. А" target="_blank" class="modal__phone">195269, город Санкт-Петербург, улица Учительская, дом 21, лит. А</a></p>
+            <p><strong>Телефон:</strong> <a href="tel:+78122463218" class="modal__phone">(812)246-32-18</a></p>
+            <p><strong>Электронная почта:</strong> <a href="mailto:info.lsit@obr.gov.spb.ru" class="modal__phone">info.lsit@obr.gov.spb.ru</a></p>
+            <p><strong>Режим работы:</strong> Пн-Пт 9.00-18.00</p>
         `,
         professions: `
             <h3>Доступные профессии:</h3>
@@ -47,7 +47,7 @@ export const studyOrganizationsData = {
             <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=195297, Санкт-Петербург, Светлановский проспект, дом 111, корпус 2, лит. А" target="_blank" class="modal__phone">195297, город Санкт-Петербург, Светлановский проспект, дом 111, корпус 2, лит. А</a></p>
             <p><strong>Телефон:</strong> <a href="tel:+78122463214" class="modal__phone">(812) 246-32-14</a></p>
         `,
-        link: 'https://lsit.ru/',
+        link: 'https://lsitspb.ru/',
         social: `
             <a href="https://vk.com/priem_lsitspb" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
@@ -75,6 +75,9 @@ export const studyOrganizationsData = {
             <a href="https://vk.ru/colmspb" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
             </a>
+            <a href="https://max.ru/id7804031315_gos" target="_blank" title="Макс">
+                <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
+            </a>
         `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Гражданский пр.</p><p><span class="card__metro-line card__metro-line--blue"></span> м. пр. Просвещения</p>'
     },
@@ -90,13 +93,14 @@ export const studyOrganizationsData = {
         professions: `
             <h3>Доступные профессии:</h3>
             <p>Садовник</p>
-            <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=195197, Санкт-Петербург, ул. Лабораторная, д. 15, лит. А" target="_blank" class="modal__phone">195197, г. Санкт-Петербург, ул. Лабораторная, д. 15, лит. А</a></p>
-            <p><strong>Телефон:</strong> <a href="tel:+78122413034" class="modal__phone">(812) 241-30-34</a> <a href="tel:+78122413037" class="modal__phone">(812) 241-30-37</a></p>
         `,
         link: 'https://www.sapl113.ru/',
         social: `
             <a href="https://vk.ru/spb_sak" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+            <a href="https://max.ru/id7804157893_gos" target="_blank" title="Макс">
+                <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
             </a>
         `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Лесная</p>'
@@ -149,7 +153,7 @@ export const studyOrganizationsData = {
         `,
         professions: `
             <h3>Доступные профессии:</h3>
-            <p>Реставратор, дизайнер</p>
+            <p>Штукатур</p>
             <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=198261, Санкт-Петербург, ул. Стойкости, д. 30, корп. 2, лит. А" target="_blank" class="modal__phone">198261, Санкт-Петербург, ул. Стойкости, д. 30, корп. 2, лит. А</a></p>
             <p><strong>Телефон:</strong> <a href="tel:+78127590428" class="modal__phone">(812) 759-04-28</a> <a href="tel:+78122412757" class="modal__phone">(812) 241-27-57</a></p>
         `,
@@ -157,6 +161,9 @@ export const studyOrganizationsData = {
         social: `
             <a href="https://vk.ru/ardspb" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+             <a href="https://max.ru/id7805305350_gos" target="_blank" title="Макс">
+                <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
             </a>
         `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Проспект Ветеранов</p>'
@@ -202,8 +209,7 @@ export const studyOrganizationsData = {
         professions: `
             <h3>Доступные профессии:</h3>
             <p>Маляр</p>
-            <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=195220, Санкт-Петербург, пр. Непокоренных, д. 13, корп. 7" target="_blank" class="modal__phone">195220, Санкт-Петербург, пр. Непокоренных, д. 13, корп. 7</a> <a href="tel:+78125341749" class="modal__phone">(812) 534-17-49</a> <a href="tel:+78123934188" class="modal__phone">(812) 393-41-88</a></p>
-        `,
+            `,
         link: 'https://collegepss.ru',
         social: `
             <a href="https://vk.ru/public216083263" target="_blank" title="ВКонтакте">
@@ -227,13 +233,15 @@ export const studyOrganizationsData = {
         professions: `
             <h3>Доступные профессии:</h3>
             <p>Оператор ЭВМ</p>
-            <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=194021, Санкт-Петербург, 2-й Муринский пр., д. 43" target="_blank" class="modal__phone">194021, Санкт-Петербург, 2-й Муринский пр., д. 43</a>, <a href="tel:+78125521188" class="modal__phone">(812) 552-11-88</a></p>
             <p><em>О наборе необходимо уточнять по состоянию на текущий год.</em></p>
         `,
         link: 'https://nppl.ru',
         social: `
             <a href="https://vk.ru/newestnik" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+            <a href="https://max.ru/id7802072235_gos" target="_blank" title="Макс">
+                <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
             </a>
         `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Площадь Мужества</p>'
@@ -251,7 +259,6 @@ export const studyOrganizationsData = {
             <h3>Доступные профессии:</h3>
             <p>Швея</p>
             <p>Рабочий по благоустройству и озеленению территорий</p>
-            <p><strong>Дополнительный адрес:</strong> <a href="https://yandex.ru/maps/?text=196657, Санкт-Петербург, Колпино, бульвар Трудящихся, д. 29/52, лит. А" target="_blank" class="modal__phone">196657, Санкт-Петербург, Колпино, бульвар Трудящихся, д. 29/52, лит. А</a>, <a href="tel:+78122460819" class="modal__phone">(812) 246-08-19</a></p>
             <p><em>О наборе необходимо уточнять по состоянию на текущий год.</em></p>
         `,
         link: 'https://gu228.site.gov.spb.ru/',
@@ -284,7 +291,7 @@ export const studyOrganizationsData = {
             <a href="https://vk.ru/kolkras" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
             </a>
-            <a href="https://max.ru/id_krasnoselskiy" target="_blank" title="Макс">
+            <a href="https://max.ru/id7807354089_gos" target="_blank" title="Макс">
                 <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
             </a>
         `,
@@ -313,6 +320,9 @@ export const studyOrganizationsData = {
         social: `
             <a href="https://vk.ru/stkmosin" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
+            </a>
+             <a href="https://max.ru/id7821006750_gos" target="_blank" title="Макс">
+                <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
             </a>
         `,
         metro: '<p><span class="card__metro-line card__metro-line--none"></span> г. Сестрорецк</p>'

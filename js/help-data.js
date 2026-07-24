@@ -86,12 +86,15 @@ export const helpOrganizationsData = {
             <a href="https://vk.ru/gcorzp_juventa" target="_blank" title="ВКонтакте">
                 <img src="images/vk__logo.png" alt="VK" style="width: 24px; height: 24px;">
             </a>
+             <a href="https://max.ru/id7826005453_gos" target="_blank" title="Макс">
+                <img src="images/max__logo.png" alt="MAX" style="width: 24px; height: 24px;">
+            </a>
         `,
         metro: '<p><span class="card__metro-line card__metro-line--red"></span> м. Нарвская</p>'
     },
     'Городской центр "Контакт"': {
         title: 'Городской центр социальных программ и профилактики асоциальных явлений среди молодежи «Контакт»',
-        fullname: 'Полное наименование: Санкт-Петербургское государственное бюджетное учреждение «Городской центр социальных программ и профилактики асоциальных явлений среди молодежи «Контакт»',
+        fullname: 'Санкт-Петербургское государственное бюджетное учреждение «Городской центр социальных программ и профилактики асоциальных явлений среди молодежи «Контакт»',
         info: `
             <p><strong>Адрес:</strong> <a href="https://yandex.ru/maps/?text=196070, Санкт-Петербург, ул. Гладкова, д. 43, лит. А" target="_blank" class="modal__phone">196070, Санкт-Петербург, ул. Гладкова, д. 43, лит. А</a></p>
             <p><strong>Телефон:</strong> <a href="tel:+78127865272" class="modal__phone">(812) 786-52-72</a></p>
@@ -189,7 +192,9 @@ export const helpOrganizationsData = {
         title: 'ПомощьРядом.рф',
         fullname: 'Психологическая и информационная онлайн-помощь подросткам до 18 лет',
         info: `
+            <p><strong>Телефон:</strong> <a href="tel:+78002000122" class="modal__phone">8-800-2000-122</a></p>
             <p><strong>Режим работы:</strong> Пн-Вс 11.00-23.00</p>
+            
         `,
         professions: `
             <h3>Описание:</h3>
